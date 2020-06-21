@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1"
   }
 }
