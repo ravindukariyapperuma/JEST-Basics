@@ -13,6 +13,6 @@ test('Should be null', () => {
 });
 
 test('Should be falsy', () => {
-    expect(functions.cheackValue(undefined)).toBeFalsy();
+    expect(functions.cheackValue(2)).toBeFalsy();
 });
 
