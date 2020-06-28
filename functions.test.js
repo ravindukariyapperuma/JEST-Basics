@@ -1,6 +1,6 @@
 const functions = require('./functions');
 
-//toBe
+// toBe
 test('Adds 2 + 2 to equal 4', () => {
     expect(functions.add(2, 2)).toBe(4);
 });
@@ -37,6 +37,11 @@ test('Should be under 1600', () => {
 
 // Regex
 test('There is no I in team', () => {
-    expect('teami').not.toMatch(/I/i);
+    expect('team').not.toMatch(/I/i);
 });
 
+// Arrays
+test('Admin should be in usernames', () => {
+    usernames = ['john', 'karen', 'admin'];
+    expect(usernames).toContain('admin');
+});
